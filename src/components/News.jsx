@@ -52,7 +52,7 @@ const News = ({ simplified }) => {
               <div className="provider-container">
                 <div>
                   <Avatar src={demoImage} alt="Provider" />
-                  <Text className="provider-name">Provider Name</Text> {/* Adjust if provider info is available */}
+                 
                 </div>
                 <Text>{moment(news.createdAt).startOf('ss').fromNow()}</Text>
               </div>
